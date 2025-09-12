@@ -16,8 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin # pyright: ignore[reportMissingModuleSource]
 from django.urls import include, path # pyright: ignore[reportMissingModuleSource]
+from debug_toolbar.toolbar import debug_toolbar_urls
 
 urlpatterns = [
     path("polls/", include("polls.urls")),
     path('admin/', admin.site.urls),
-]
+] + debug_toolbar_urls()
