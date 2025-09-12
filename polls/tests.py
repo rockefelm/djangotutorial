@@ -1,8 +1,8 @@
 import datetime
 
-from django.test import TestCase
-from django.utils import timezone
-from django.urls import reverse
+from django.test import TestCase # pyright: ignore[reportMissingModuleSource]
+from django.utils import timezone # pyright: ignore[reportMissingModuleSource]
+from django.urls import reverse # pyright: ignore[reportMissingModuleSource]
 
 from .models import Question
 

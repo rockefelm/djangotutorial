@@ -1,9 +1,9 @@
-from django.db.models import F
-from django.http import HttpResponseRedirect
-from django.shortcuts import get_object_or_404, render
-from django.urls import reverse
-from django.views import generic
-from django.utils import timezone
+from django.db.models import F # pyright: ignore[reportMissingModuleSource]
+from django.http import HttpResponseRedirect # pyright: ignore[reportMissingModuleSource]
+from django.shortcuts import get_object_or_404, render # pyright: ignore[reportMissingModuleSource]
+from django.urls import reverse # pyright: ignore[reportMissingModuleSource]
+from django.views import generic # pyright: ignore[reportMissingModuleSource]
+from django.utils import timezone # pyright: ignore[reportMissingModuleSource]
 
 from .models import Choice, Question
 
